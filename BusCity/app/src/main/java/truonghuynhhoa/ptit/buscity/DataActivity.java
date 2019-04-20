@@ -197,6 +197,7 @@ public class DataActivity extends AppCompatActivity {
             public void run() {
                 while(start < totalProgressTime) {
                     try {
+                        // Dừng việc thực thi tiểu trình hiện tại được chỉ định trong một khoảng thời gian tính bằng mili giây, giá trị này không được âm
                         sleep(200);
                         start += 5;
                         progress.setProgress(start);
