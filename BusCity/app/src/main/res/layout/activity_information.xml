@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InformationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorGreen"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Bus City\nBuses of Ho Chi Minh City"
+        android:id="@+id/txtTitleInformation"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorGray"
+            android:text="* Version: 1.0"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txtVersion"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorGray"
+            android:text="* Author: BusCity Team - PTIT HoChiMinh"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txtAuthor"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorGray"
+            android:text="* Bus City was simulated by author Le Yen Thanh's Bus Map application "
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txtDetail"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Close"
+        android:textColor="@color/colorGreen"
+        android:id="@+id/btnClose"/>
+
+</LinearLayout>
